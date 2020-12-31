@@ -1,0 +1,73 @@
+h2.title-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+.say-something-aera {
+  position: relative;
+  border-bottom: 1px solid #ffc9fd;
+}
+/*.radius-btn {
+  padding: 30px 43px;
+  border-radius: 30px;
+}*/
+
+.btn {
+  background: #f9218d;
+  -moz-user-select: none;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0;
+  margin-bottom: 0;
+  padding: 30px 44px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color .4s linear;
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+  margin: 0;
+}
+/*@media only screen and (max-width: 1440px) and (min-width: 1200px) {
+.say-something-aera .say-shape .say-shape1 {
+  left: -134px;
+  bottom: -215px;
+}
+
+.say-something-aera .say-shape .say-shape1 {
+  position: absolute;
+  left: -99px;
+  bottom: -140px;
+}
+.rotateme {
+  -webkit-animation-name: rotateme;
+  animation-name: rotateme;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+.say-something-aera .say-shape .say-shape2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.say-something-aera .say-something-cap h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #282828;
+}*/
+@media only screen and (max-width: 768px){
+	.about-img {
+		display: none;
+	}
+}
